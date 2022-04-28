@@ -24,7 +24,7 @@ function dateSample(sampleActivity) {
     return false
   } else {
     k = 0.693 / HALF_LIFE_PERIOD
-    b = Math.ceil(Math.log(MODERN_ACTIVITY / Number(sampleActivity) / k))
+    b = Math.ceil(MODERN_ACTIVITY / Number(sampleActivity) / k)
   }
 }
 
